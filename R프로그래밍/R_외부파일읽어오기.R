@@ -42,6 +42,7 @@ popdata<-read.csv('/Users/ichanghwan/Desktop/rt_data/seoulpopulation.csv',header
     - readWorksheet(파일, sheet="시트명", startRow=읽어올 시작 행, startCol=읽어올 시작열, endRow=마지막행, 
                       endCol=마지막열)
 
+
   xlsx패키지 이용
     - java를 이용하여 xls,xlsx파일을 읽어옴
     - install.packages("xlsx") => xlsx 패키지 사용, require(xlsx)
